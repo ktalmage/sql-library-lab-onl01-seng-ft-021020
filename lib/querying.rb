@@ -33,7 +33,7 @@ end
 
 def select_series_title_with_most_human_characters
   "SELECT series.title
-   FROM series
+   FROM 
    INNER JOIN books 
    ON books.id = series.books_id
    INNER JOIN characters
